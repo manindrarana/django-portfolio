@@ -1,0 +1,135 @@
+{% load static %}
+<!-- need to load static in here  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'styles.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-TI7xIp9Q3hj8vJuXl5Izn5+PK5QMEiLzL1AFj8FScxyTL/iRXz5GxPP6gJtr3F4R"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/f86455fa18.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Manindra's PORTFOLIO</title>
+  </head>
+  <body>
+    <nav class="container">
+      <ul id="nav-list" class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#About-me">About Me</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <section class="about-me row">
+        <div class="col-md-12">
+          <h2>About Me</h2>
+          <p id="about-text"></p>
+        </div>
+      </section>
+
+      <section id="Skills" class="row">
+        <div class="col-md-12">
+          <h2>Skills</h2>
+        </div>
+      </section>
+
+      <section id="Projects" class="row">
+        <div class="col-md-12">
+          <h2>Favorite Projects</h2>
+        </div>
+      </section>
+
+      <section id="Experience" class="row">
+        <div class="col-md-12">
+          <h2>Experience</h2>
+        </div>
+      </section>
+
+      <section id="Education" class="row">
+        <div class="col-md-12">
+          <h2>Education</h2>
+        </div>
+      </section>
+
+      <section id="Contact" class="row">
+        <div class="col-md-12">
+          <h2>Contact</h2>
+        </div>
+      </section>
+    </div>
+
+    <div id="bottomToTopBtn" class="btn btn-primary">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <footer class="container-fluid bg-dark text-light">
+      <div class="row">
+        <div class="col-12 text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="social-icon"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{% static '/js/main.js' %}"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy8L9ADTj+PjIql/zZ5nUvL1Hw1pK1JJK6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

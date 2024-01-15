@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lemon", serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #333333ad;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: #800000;
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 5px;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+section {
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+#scrollToTopBtn {
+  /* same styles as before */
+  visibility: hidden;
+}
+
+.showBtn {
+  visibility: visible;
+}
