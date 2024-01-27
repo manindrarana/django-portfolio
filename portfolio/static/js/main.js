@@ -1,10 +1,7 @@
 //text typing
 
 const aboutText = document.getElementById("about-text");
-const textArray = [
-  "I am a student",
-  "I am studying the masters in informatics",
-];
+const textArray = ["I am a student", "I am studying masters in informatics"];
 let index = 0;
 let isDeleting = false;
 let charIndex = 0;
@@ -56,6 +53,6 @@ function scrollFunction() {
 }
 
 bottomToTopBtn.onclick = function () {
-  document.body.scrollTop = 0; 
+  document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 };
